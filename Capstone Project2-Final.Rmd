@@ -129,7 +129,7 @@ rm(dl,lst,fname_zipped)
 
   Let's glance and see a first few rows of the data
 
-```{r firts look, message=FALSE}
+```{r firts look, message=FALSE, warning=FALSE}
 glance(train)
 glance(unique_m)
 
